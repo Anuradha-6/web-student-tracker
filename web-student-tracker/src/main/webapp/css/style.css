@@ -1,0 +1,82 @@
+html, body{
+/*	margin-left:15px; margin-right:15px; */ 
+	margin: 0px;
+	padding:0px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+table {   
+	border-collapse: collapse;
+    border: 11px solid white;
+    
+    border-bottom: 2px solid #BE9FE1;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    width: 90%;
+    margin: auto;
+}
+ 
+th {
+
+    background: none repeat scroll 0 0 #BE9FE1;
+    padding: 18px 7px;
+    color: #FFFFFF;
+}
+td{
+	padding: 7px 8px;
+}
+
+tr {
+	
+	text-align:center;	
+}
+ 
+tr:nth-child(even) {background: #F1F1F6}
+tr:nth-child(odd) {background: #E1CCEC}	
+ 
+#wrapper {    
+	width: 100%;                
+    margin: auto;
+    margin-bottom: 44px; }
+#header {
+	max-width: 100%;
+    background: #BE9FE1;
+    margin-top: 0px;
+    margin-bottom: 36px;
+    padding: 15px 0px 15px 0px;
+}
+#header h2 {
+	width: 100%;
+    margin: auto;
+    padding: 10px;
+    padding-left: 53px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+#container {width: 100%; margin:auto}
+#container h3 {color: #000;}
+#container #content {margin-top: 20px;}
+a{
+	color: #6825a3;
+	text-decoration: none;
+}
+a:hover{
+	color: #b272ea;
+}
+.add-student-button {
+	border: 3px solid #BE9FE1;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 120px;
+    padding: 9px 10px;
+    margin-left: 88px;
+    margin-bottom: 18px;
+    color: white;
+    background: #BE9FE1;
+}
+.add-student-button:hover{
+		 background: white;
+		 color: #BE9FE1;
+		 transition: all ease-out 0.08s;	
+}

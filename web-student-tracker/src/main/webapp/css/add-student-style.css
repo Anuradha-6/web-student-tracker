@@ -1,0 +1,59 @@
+form {
+	margin-top: 10px;
+}
+
+label {
+	font-size: 16px; 
+	width: 100px; 
+	display: block; 
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+input {
+	width: 250px;
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 16px;
+}
+#container h3{
+	color:#6825a3;
+	padding: 0px 57px;
+}
+
+.save {
+	border: 3px solid #BE9FE1;
+    border-radius: 5px;
+   	padding: 5px 10px; 
+	margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 130px;
+    color: white;
+    background: #BE9FE1;
+}
+.save:hover{
+	background: white;
+	color: #BE9FE1;
+	transition: all ease-out 0.08s;	
+}
+table {   
+	border-style:none;
+	width:50%;
+}
+
+a{
+	padding: 0px 57px;
+}
+
+tr:nth-child(even) {background: #FFFFFF}
+tr:nth-child(odd) {background: #FFFFFF}
+
+tr {
+	border-style:none;
+	text-align:left;	
+}
+	
