@@ -1,2 +1,2 @@
 # web-student-tracker
-This is a student web tracker app created using Servlet and JSPs. We can store list of students in database and perform all CRUD operations on them.
+This is a Student Tracker Web Application created using JSP, Servlet, JDBC and MYSQL for the database. We can perform all the CRUD operations on a list of students. This project follows the MVC design pattern.
